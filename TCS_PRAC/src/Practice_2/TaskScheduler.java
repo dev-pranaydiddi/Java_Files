@@ -30,7 +30,24 @@ public class TaskScheduler {
             int time = scanner.nextInt();
             tasks[i] = new Task(priority, time);
         }
+
         // Perform Selection Sort
+//
+//        for (int i = 0; i < N - 1; i++) {
+//            int min = i;
+//            for (int j = i + 1; j < N; j++) {
+//                if (tasks[min].priority > tasks[j].priority) {
+//                    min = j;
+//                } else if (tasks[min].priority == tasks[j].priority && tasks[min].time > tasks[j].time) {
+//                    min = j;
+//                }
+//            }
+//            Task temp = tasks[min];
+//            tasks[min] = tasks[i];
+//            tasks[i] = temp;
+//        }
+
+
         for (int i = 0; i < N - 1; i++) {
             int minIndex = i;
             for (int j = i + 1; j < N; j++) {
