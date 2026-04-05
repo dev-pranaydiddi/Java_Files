@@ -69,12 +69,11 @@ public class TaskScheduler {
 
         // Print sorted tasks
         for (int i = 0; i < N; i++) {
-            System.out.print(tasks[i].toString());
-            if (i < N - 1) {
-                System.out.print(", ");
-            }
+            System.out.println(tasks[i].toString());
+
         }
         System.out.println();
         scanner.close();
+        System.out.println(Character.isAlphabetic('a'));
     }
 }

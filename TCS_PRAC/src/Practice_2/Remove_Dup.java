@@ -1,6 +1,8 @@
 package Practice_2;
 
+import java.util.ArrayList;
 import java.util.HashMap;
+import java.util.List;
 import java.util.Scanner;
 
 public class Remove_Dup {
@@ -13,9 +15,6 @@ public class Remove_Dup {
             hm.put(sc.nextInt(), 0);
         }
 
-        hm.forEach((key, value) ->
-                System.out.print(key+" ")
-        );
 
 
     }

@@ -43,5 +43,6 @@ public class MaxSubSetSum {
         for (int i = index; i < arr.length; i++) {
             findMaxSubsetSum(arr, target, i + 1, currentSum + arr[i]);
         }
+
     }
 }

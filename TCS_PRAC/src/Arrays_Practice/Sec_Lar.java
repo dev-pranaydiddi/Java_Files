@@ -25,6 +25,7 @@ public class Sec_Lar {
             }
         }
         System.out.println("Second Largest = " + sl);
+
     }
 }
 
